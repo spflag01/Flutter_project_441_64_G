@@ -45,11 +45,19 @@ static void my_application_activate(GApplication* application) {
   if (use_header_bar) {
     GtkHeaderBar* header_bar = GTK_HEADER_BAR(gtk_header_bar_new());
     gtk_widget_show(GTK_WIDGET(header_bar));
+<<<<<<< HEAD
     gtk_header_bar_set_title(header_bar, "ziaul_64");
     gtk_header_bar_set_show_close_button(header_bar, TRUE);
     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
   } else {
     gtk_window_set_title(window, "ziaul_64");
+=======
+    gtk_header_bar_set_title(header_bar, "ziaul_64g");
+    gtk_header_bar_set_show_close_button(header_bar, TRUE);
+    gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
+  } else {
+    gtk_window_set_title(window, "ziaul_64g");
+>>>>>>> 8f38aebf2e9c2d5874ce0559357c52de89c010fa
   }
 
   gtk_window_set_default_size(window, 1280, 720);

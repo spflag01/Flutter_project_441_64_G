@@ -5,7 +5,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.ziaul_64"
+=======
+    namespace = "com.example.ziaul_64g"
+>>>>>>> 8f38aebf2e9c2d5874ce0559357c52de89c010fa
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -16,7 +20,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.example.ziaul_64"
+=======
+        applicationId = "com.example.ziaul_64g"
+>>>>>>> 8f38aebf2e9c2d5874ce0559357c52de89c010fa
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

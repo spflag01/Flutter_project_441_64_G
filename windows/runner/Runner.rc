@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "ziaul_64" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "ziaul_64" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "ziaul_64.exe" "\0"
             VALUE "ProductName", "ziaul_64" "\0"
+=======
+            VALUE "FileDescription", "ziaul_64g" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "ziaul_64g" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "ziaul_64g.exe" "\0"
+            VALUE "ProductName", "ziaul_64g" "\0"
+>>>>>>> 8f38aebf2e9c2d5874ce0559357c52de89c010fa
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

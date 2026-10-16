@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="ziaul_64"
+=======
+        android:label="ziaul_64g"
+>>>>>>> 8f38aebf2e9c2d5874ce0559357c52de89c010fa
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
