@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ziaul_64/calculator_page.dart';
 import 'homepage.dart';
 import 'assignment2.dart';
 
@@ -11,6 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Homepage());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: CalculatorPage(),
+    );
   }
 }
